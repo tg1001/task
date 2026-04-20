@@ -1,4 +1,4 @@
-name: CLone repository
+name: clone repo, version check
 on: push
 
 

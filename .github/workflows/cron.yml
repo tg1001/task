@@ -1,4 +1,4 @@
-name: My First Workflow
+name: Corn flow
 on: 
   push:
   # schedule:
