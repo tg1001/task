@@ -11,5 +11,7 @@ jobs:
         - name: Clone repository
           uses: actions/checkout@v4
         
-        - name: List files
-          run: ls 
+        - name: Setup Node
+          uses: actions/setup-node@v4
+          with:
+            node-version: '18'
